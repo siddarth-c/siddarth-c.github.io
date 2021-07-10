@@ -20,50 +20,56 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">SC's Homepage</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
                             <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-estate nav__icon"></i> Home
+                                <i class="uil uil-estate nav__icon"></i>SiddC
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i> About Me
+                                <i class="uil uil-user nav__icon"></i>About Me
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                                <i class="uil uil-file-alt nav__icon"></i>Skills
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#experience" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Experience
+                                <i class="uil uil-briefcase-alt nav__icon"></i>Experience
                             </a>
                         </li>
+
                         <li class="nav__item">
                             <a href="#education" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i>Education
+                                <i class="uil uil-university nav__icon"></i>Education
                             </a>
                         </li>
+
                         <li class="nav__item">
                             <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Projects
+                                <i class="uil uil-arrow nav__icon"></i>Projects
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#publication" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Publication
+                                <i class="uil uil-book nav__icon"></i>Publication
                             </a>
                         </li>
 
+                        <li class="nav__item">
+                            <a href="#achievements" class="nav__link">
+                                <i class="uil uil-trophy nav__icon"></i>Achievements
+                            </a>
+                        </li>
                     </ul>
 
                     <i class="uil uil-times nav__close" id="nav-close"></i>
@@ -125,9 +131,9 @@
                         </div>
 
                         <div class="home__data">
-                            <h1 class="home__title"><a style="color: #82cea4">Hi, I am </a>Siddarth.C </h1>
+                            <h1 class="home__title"><a style="color: #50C878">Hi, I am </a>Siddarth.C </h1>
                             <h3 class="home__subtitle"></h3>
-                            <h3 class="home__subtitle"><a style="color: #82cea4">Undergrad at IIITDM</a></h3>
+                            <h3 class="home__subtitle"><a style="color: #50C878">Undergrad at IIITDM</a></h3>
                             <!-- <a href="#contact" class="button button--flex">
                                 Contact Me <i class="uil uil-message button__icon"></i>
                             </a> -->
@@ -153,8 +159,7 @@
                     <img src="assets/img/about.jpg" alt="" class="about__img">
 
                     <div class="about__data">
-                        <p class="about__description">B.Tech student in Electronics and Communication Engineering at Indian Institute of 
-                            Information and Technology, Design and Manufacturing in Kancheepuram, India.</p>
+                        <p class="about__description" >I am pursuing my bacheleors in Electronics and Communication Engineering at Indian Institute of Information and Technology, Design and Manufacturing in Kancheepuram, India. I'm interested in deep learning, specifically in the use of reinforcement learning algorithms to make the learning process similar to humans</p>
                         <div class="about__buttons">
                             <!--==================== Change your CV ====================-->
                             <a download="" href="assets/pdf/Resume.pdf" target="_blank" class="button button--flex">
@@ -205,6 +210,7 @@
                     </div>
                   </div>
 
+
                   <div class="experience_content">
                     <div class="experience_time">
                       <span class="experience_rounder"></span>
@@ -223,7 +229,7 @@
                   <div class="experience_content">
                     <div class="experience_time">
                       <span class="experience_rounder"></span>
-                      <!-- <span class="experience_line"></span> -->
+                      <span class="experience_line"></span>
                     </div>
                     <div class="experience_data bd-grid">
                       <h3 class="experience_title">Industrial Intern, Quantrium Tech, Chennai</h3>
@@ -234,6 +240,23 @@
                       <p class="experience_description">Developed a document analyzer for India’s first ever printed character recognizer for Bank Passbooks. <br> Redesigned the pre-processing pipeline leading to 75% faster processing speed</p> <br>
                     </div>
                   </div>
+
+                  <div class="experience_content">
+                    <div class="experience_time">
+                      <span class="experience_rounder"></span>
+                      <!-- <span class="experience_line"></span> -->
+                    </div>
+                    <div class="experience_data bd-grid">
+                      <h3 class="experience_title">SRIP, IIIT Hyderabad</h3>
+                      <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          MAY 2019 - JULY 2019
+                      </div>
+                      <p class="experience_description">Contributed in an open source project by replicating a local java application to a web based application</p> <br>
+                    </div>
+                  </div>
+
+
                 </div>
             </section>
 
@@ -332,13 +355,26 @@
                             </p>
                         </div>
                         <span class="button button--flex button--small button--link services__button">
-                          <a href="https://ieeexplore.ieee.org/document/9419472" target="_blank" class="project_button">Link</a>
+                          <a href="https://ieeexplore.ieee.org/document/9419472" target="_blank" class="project_button">Paper</a>
                             <i class="uil uil-arrow-right button__icon"></i>
                         </span>
                     </div>
                 </div>
             </section>
 
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="achievements">
+                <h2 class="section__title">OTHER ACHIEVEMENTS</h2><br>
+                <span class="section__subtitle"></span>
+                <div class="services__container container grid">
+                <p  class="experience_final_description2">Bagged second place in ReimagiNEWaste 4 hackathon for developing an application to reduce medical waste</p>
+                <br>
+                <p  class="experience_final_description3">Special mention in Startup Weekend (hackathon) for developing a prototype for pet care</p>
+                <br>
+                <p  class="experience_final_description2">Won multiple competitions in Vashisht 2K19</p>
+
+
+            </section>
         <br> <br>
         <!--==================== FOOTER ====================-->
         <footer class="footer">

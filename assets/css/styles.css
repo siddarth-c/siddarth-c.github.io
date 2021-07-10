@@ -13,7 +13,7 @@
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --first-color-darker: hsl(var(--hue-color), 92%, 8%);
+  --first-color-darker: hsl(var(--hue-color), 92%, 15%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
@@ -35,7 +35,7 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
   /*========== Font weight ==========*/
-  --font-medium: 500;
+  --font-medium: 100;
   --font-semi-bold: 600;
   /*========== Margenes Bottom ==========*/
   --mb-0-25: .25rem;
@@ -76,7 +76,7 @@ body.dark-theme {
   --container-color: hsl(var(--hue-color), 30%, 30%);
   --container-color2:hsl(var(--hue-color), 40%, 40%);
   --skill-container-color: hsl(var(--hue-color), 80%, 30%);
-  --skill-container-color2:hsl(var(--hue-color), 70%, 20%);
+  --skill-container-color2:hsl(var(--hue-color), 60%, 35%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
@@ -418,7 +418,7 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__img {
-  width: 200px;
+  width: 500px;
   border: 5px solid var(--first-color);
   border-radius: .5rem;
   justify-self: center;
@@ -431,6 +431,8 @@ img {
 .about__description {
   text-align: center;
   margin-bottom: var(--mb-2-5);
+  color: var(--first-color-darker);
+
 }
 
 .about__info {
@@ -562,9 +564,19 @@ img {
   color: var( --text-color);
   text-align: center;
   font-size: var(--h3-font-size);
-
 }
 
+.experience_final_description2{
+  color: var(--first-color-darker);
+  text-align: center;
+  font-size: var(--normal-font-size);
+}
+
+.experience_final_description3{
+  color: var(--text-color);
+  text-align: center;
+  font-size: var(--normal-font-size);
+}
 .experience_title{
   font-size: var(--h3-font-size);
 
@@ -755,8 +767,7 @@ img {
 }
 
 .project_button{
-
-  color: var(--first-color);
+  color: var(--text-color);
 }
 
 /*==================== PORTFOLIO ====================*/
@@ -1088,7 +1099,7 @@ footer{
     padding-right: 1rem;
     align-items: center;
     margin-left: 10rem;
-    margin-right: 2%;
+    margin-right: 0%;
   } 
 .experience_rounder{
   position: relative;
@@ -1098,7 +1109,7 @@ footer{
   background-color: var(--first-color);
   border-radius: 50%;
   margin-top: .25rem;
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 
 .experience_line{
@@ -1107,7 +1118,7 @@ footer{
   height: 100%;
   background-color: var(--first-color);
   transform: translate(7px, 0);
-  margin-left: 5rem;
+  margin-left: 2rem;
 
 }
 
@@ -1204,10 +1215,12 @@ footer{
     column-gap: 5rem;
   }
   .about__img {
-    width: 350px;
+    width: 600px;
   }
   .about__description {
     text-align: initial;
+    color: var(--first-color-darker);
+
   }
   .about__info {
     justify-content: space-between;
